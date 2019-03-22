@@ -5,7 +5,7 @@
 # @File    : 处理2.py
 # @Software: PyCharm
 import json
-
+"""这个脚本能处理大部分的headers"""
 # 使用三引号将浏览器复制出来的requests headers参数赋值给一个变量
 headers = """
 accept-ranges: bytes
