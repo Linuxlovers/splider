@@ -15,7 +15,6 @@ file_name = 'head.text'
 new_file = open(file_name + ".backup", 'w', encoding='utf-8')
 with open(file_name, 'r', encoding='utf-8')as file:
     for line in file.readlines():
-        # if re.search('\s', line):
         line_list = re.split(r'\s', line)
         print(re.search(r'\s',line))
         print(line_list)
